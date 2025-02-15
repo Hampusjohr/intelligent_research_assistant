@@ -38,8 +38,8 @@ An intelligent research assistant that integrates with multiple research and inf
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
+    git clone https://github.com/Hampusjohr/intelligent_research_assistant
+    cd intelligent_research_assistant
     ```
 
 2. **Install dependencies**:
