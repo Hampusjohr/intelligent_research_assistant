@@ -1,0 +1,78 @@
+# Intelligent Research Assistant
+
+An intelligent research assistant that integrates with multiple research and information APIs to fetch relevant research results from various sources.
+
+## Key Features
+
+- **Multi-API Integration**: Seamlessly integrates with multiple research and information APIs including Wikipedia, CrossRef, arXiv, Semantic Scholar, and Open Library.
+- **Advanced Query Handling**: Efficiently processes and handles search queries to fetch relevant research results from various sources.
+- **Custom Response Templates**: Formats and presents the fetched data in a consistent and user-friendly manner.
+- **Error Handling and Logging**: Robust error handling and logging mechanisms to ensure reliability and ease of debugging.
+- **Environment Variable Management**: Securely manages API keys and other sensitive information using environment variables.
+
+## Technologies Used
+
+- **TypeScript**: For type-safe JavaScript development.
+- **Node.js**: For server-side JavaScript runtime.
+- **Express**: For building the RESTful API.
+- **Axios**: For making HTTP requests to external APIs.
+- **dotenv**: For managing environment variables securely.
+- **Git & GitHub**: For version control and collaboration.
+- **Visual Studio Code**: As the integrated development environment (IDE).
+
+## External APIs Integrated
+
+- **Wikipedia API**: For fetching Wikipedia articles.
+- **CrossRef API**: For accessing scholarly articles and metadata.
+- **arXiv API**: For retrieving research papers from arXiv.
+- **Semantic Scholar API**: For searching academic papers.
+- **Open Library API**: For accessing book information.
+
+## Project Structure
+
+- **src/services/api.ts**: Contains functions for making API requests to external services.
+- **.env**: Stores environment variables, such as API keys, securely.
+- **.gitignore**: Specifies files and directories to be ignored by Git.
+
+## Setup Instructions
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/your-username/your-repository.git
+    cd your-repository
+    ```
+
+2. **Install dependencies**:
+    ```sh
+    npm install
+    ```
+
+3. **Create a [.env](http://_vscodecontentref_/1) file** in the root directory and add your environment variables:
+    ```env
+    SEMANTIC_SCHOLAR_API_KEY=your_api_key_here
+    ```
+
+4. **Run the application**:
+    ```sh
+    npm start
+    ```
+
+## Usage
+
+- **searchWikipedia(query: string)**: Fetches Wikipedia articles based on the query.
+- **searchCrossRef(query: string)**: Retrieves scholarly articles from CrossRef.
+- **searchArxiv(query: string)**: Gets research papers from arXiv.
+- **searchSemanticScholar(query: string)**: Searches academic papers on Semantic Scholar.
+- **searchOpenLibrary(query: string)**: Accesses book information from Open Library.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## Contact
+
+For any questions or inquiries, please contact hampusjohr@gmail.com
